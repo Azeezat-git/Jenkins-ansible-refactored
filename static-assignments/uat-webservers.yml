@@ -1,4 +1,4 @@
 ---
 - hosts: uat-webservers
   roles:
-     - webserver
+    - role: '/home/ubuntu/ansible-config-artifact/roles/tasks/main.yml'
