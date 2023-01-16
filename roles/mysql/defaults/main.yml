@@ -115,6 +115,7 @@ mysql_databases:
 # Users.
 mysql_users:
    - name: webaccess
+     become: yes
      host: 0.0.0.0
      password: secret
      priv: '*.*:ALL,GRANT'
